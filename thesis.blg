@@ -1,8 +1,16 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
-The style file: gost705s.bst
+The style file: unsrt.bst
 Database file #1: thesis.bib
+Warning--entry type for "additive" isn't style-file defined
+--line 66 of file thesis.bib
 Warning--entry type for "addit" isn't style-file defined
---line 77 of file thesis.bib
-Warning--I'm ignoring addit's extra "language" field
---line 84 of file thesis.bib
-(There were 2 warnings)
+--line 181 of file thesis.bib
+Warning--entry type for "rs274d" isn't style-file defined
+--line 237 of file thesis.bib
+Warning--there's a number but no volume in 3dmetal
+Warning--can't use both author and editor fields in descartes
+Warning--can't use both author and editor fields in python
+Warning--empty author and editor in sworks2
+Name 1 in "Merlet, J. P," has a comma at the end for entry parallel
+while executing---line 944 of file unsrt.bst
+(There was 1 error message)

@@ -1,77 +1,109 @@
-\ifx\undefined\BibEmph\def\BibEmph#1{#1}\else\fi
-\ifx\undefined\href\def\href#1#2{#2}\else\fi
-\ifx\undefined\url\def\url#1{\texttt{#1}}\else\fi
-\ifx\undefined\urlprefix\def\urlprefix{URL: }\else\fi
-\ifx\undefined\BibUrl\def\BibUrl#1{\urlprefix\url{#1}}\else\fi
-\ifx\undefined\BibUrlDate\long\def\BibUrlDate#1{({%
-\cyr\cyrd\cyra\cyrt\cyra\ %
-\cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
-\ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
-\begin{thebibliography}{1}
-\def\selectlanguageifdefined#1{
-\expandafter\ifx\csname date#1\endcsname\relax
-\else\language\csname l@#1\endcsname\fi}
+\begin{thebibliography}{10}
+
+\bibitem{additive}
+J.~Excell and S.~Nathan.
+\newblock The rise of additive manufacturing, May 2010.
+
+\bibitem{3dprint2}
+L.~M. Sherman.
+\newblock 3d printers lead growth of rapid prototyping.
+\newblock {\em Plastics Technology}, August 2004.
 
 \bibitem{addit}
-\selectlanguageifdefined{russian}
-\BibEmph{Довбыш~.~., Забеднов~.~., Зленко~.~.}
-\newblock Аддитивные технологии и изделия из металла.
-\newblock 2012.
-\newblock \BibUrl{www.ipmd.net}.
+В.~М. Довбыш, П.~В. Забеднов, and М.~А. Зленко.
+\newblock Аддитивные технологии и изделия из металла, 2012.
 
-\bibitem{stewart1}
-\selectlanguageifdefined{russian}
-\BibEmph{Андриевский~.~., Зегжда~.~., Казунин~.~.} Управление платформой
-  Стьюарта с шестью степенями свободы на базе пневмоприводов~// \BibEmph{XII
-  Всероссийское совещание по проблемам управления}.
-\newblock 2014. "--- 16-19 июня.
-\newblock {\cyr\CYRS.}~4.
+\bibitem{rs274d}
+Eia standard rs-274-d interchangeable variable block data format for
+  positioning, contouring, and contouring/positioning numerically controlled
+  machines, February 1979.
+
+\bibitem{polymers}
+N.~G. McCrum, C.~P. Buckley, and C.~B. Bucknall.
+\newblock {\em Principles of polymer engineering.}
+\newblock Oxford University Press., 1 edition, 1997.
+
+\bibitem{3dmetal}
+Gerald Anzalone, Chenlong Zhang, Joshua Pearce, and Paul Sanders.
+\newblock A low-cost open-source metal 3-d printer.
+\newblock {\em IEEE Access}, (1):803--810, December 2013.
+
+\bibitem{descartes}
+R.~Descartes.
+\newblock {\em Discourse on Method, Optics, Geometry, and Meteorology}.
+\newblock Haskett Publishing, 2001.
 
 \bibitem{fdm_print}
-\selectlanguageifdefined{russian}
-\BibEmph{Одарченко~.~.} Моделирование методом послойного наплавления~//
-  \BibEmph{3D Today}.
-\newblock 2013.
-\newblock {\cyr\CYRS.}~4.
+Григорий~Алексеевич Одарченко.
+\newblock Моделирование методом послойного наплавления.
+\newblock {\em 3D Today}, page~4, 2013.
 
 \bibitem{3dprint}
-\selectlanguageifdefined{russian}
-Доступная 3D печать для науки, образования и устойчивого развития; Пер. с
-  англ.~/ {\cyr\CYRP\cyro\cyrd\ \cyrr\cyre\cyrd.\ }C.~Fonda, E.~Canessa,
-  M.~Sennaro.
+C.~Fonda, E.~Canessa, and M.~Sennaro, editors.
+\newblock {\em Доступная 3D печать для науки, образования и устойчивого
+  развития; Пер. с англ.}, volume~1.
 \newblock The Abdus Salam International Centre for Theoretical Physics, 2013.
-\newblock {\cyr\CYRT.}~1.
 
 \bibitem{loxodr0}
-\selectlanguageifdefined{english}
-\BibEmph{Alexander~J.} Loxodromes: A Rhumb Way to Go~// \BibEmph{Mathematics
-  Magazine}.
-\newblock 2004. "--- December.
-\newblock Vol.~77, no.~5.
-\newblock P.~349--356.
+J.~Alexander.
+\newblock Loxodromes: A rhumb way to go.
+\newblock {\em Mathematics Magazine}, 77(5):349--356, December 2004.
+
+\bibitem{geometry}
+G.~B. Thomas and R.~L. Finney.
+\newblock {\em Calculus and Analytic Geometry}.
+\newblock Addison Wesley Publishing Co., 1979.
+
+\bibitem{sworks}
+J.~D. Bethune.
+\newblock {\em Engineering Design and Graphics with SolidWorks}.
+\newblock Peachpit Press, 1 edition, 2009.
 
 \bibitem{loxodr1}
-\selectlanguageifdefined{english}
-\BibEmph{Petrovic~M.} Differential equation of a loxodrome on the spheroid~//
-  \BibEmph{NASE MORE}.
-\newblock 2007.
-\newblock P.~87--89.
+M.~Petrovic.
+\newblock Differential equation of a loxodrome on the spheroid.
+\newblock {\em NASE MORE}, pages 87--89, 2007.
 
 \bibitem{python}
-\selectlanguageifdefined{english}
-\BibEmph{Rossum~G.} An intriduction to Python~/ Ed. by F.~Drake.
+G.~Rossum.
+\newblock {\em An intriduction to Python}.
 \newblock Network Theory ltd, 2003.
 
-\bibitem{stewart0}
-\selectlanguageifdefined{english}
-\BibEmph{Stewart~D.} A Platform with Six Degrees of Freedom~// \BibEmph{UK
-  Institution of Mechanical Engineers Proceedings}.
-\newblock 1965.
-\newblock Vol. 180, no.~15.
-
 \bibitem{python2}
-\selectlanguageifdefined{english}
-\BibEmph{Tosi~S.} Matplotlib for Python Developers.
+S.~Tosi.
+\newblock {\em Matplotlib for Python Developers}.
 \newblock Packt Publishing, 2009.
+
+\bibitem{sworks2}
+{\em SolidWorks 2010: Основные элементы SolidWorks, пер. с англ.}
+\newblock Dassault Systems SolidWorks Corporation, 1 edition, 2009.
+
+\bibitem{5axis}
+Karlo Apro.
+\newblock {\em Secrets of 5-Axis Machining}.
+\newblock Industrial Press Inc., 2008.
+
+\bibitem{parallel}
+J.~P Merlet.
+\newblock {\em Parallel Robots}.
+\newblock Springer, 2 edition, 2008.
+
+\bibitem{pneum}
+А.~Г. Схиртладзе, В.~И. Иванов, and В.~Н. Кареев.
+\newblock {\em Гидравлические и пневматические системы}.
+\newblock Янус-К, Москва, ИЦ МГТУ "Станкин", 2003.
+
+\bibitem{stewart0}
+D.~Stewart.
+\newblock A platform with six degrees of freedom.
+\newblock {\em UK Institution of Mechanical Engineers Proceedings}, 180(15),
+  1965.
+
+\bibitem{stewart1}
+Б.~Р. Андриевский, С.~А. Зегжда, and Д.~В. Казунин.
+\newblock Управление платформой Стьюарта с шестью степенями свободы на базе
+  пневмоприводов.
+\newblock {\em XII Всероссийское совещание по проблемам управления}, page~4,
+  16-19 июня 2014.
 
 \end{thebibliography}

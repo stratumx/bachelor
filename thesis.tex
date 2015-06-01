@@ -30,6 +30,7 @@ colorlinks=true % цветные гиперссылки
 %\usepackage{microtype}
 \usepackage{amssymb,amsmath}
 \usepackage{graphicx}
+%\usepackage{hyphenat}
 \usepackage{listings}
 \usepackage{color}
 \graphicspath{{fig/}}
@@ -56,6 +57,7 @@ colorlinks=true % цветные гиперссылки
 \graphicspath{{fig/}}
 
 \makeatletter
+\renewcommand{\lstlistingname}{Листинг}
 \renewcommand{\p@subsection}{}
 \renewcommand{\p@subsubsection}{}
 \makeatother
@@ -171,8 +173,10 @@ colorlinks=true % цветные гиперссылки
 % Список литературы
 \renewcommand{\bibname}{Список литературы}
 %\nocite{*}
+
 \bibliography{thesis}
-\bibliographystyle{gost705s}
+%\bibliographystyle{gost705}
+\bibliographystyle{unsrt}
 
 % Приложения
 
