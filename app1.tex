@@ -15,13 +15,13 @@ from mpl_toolkits.mplot3d import Axes3D
 
 # входные данные
 LEANING_ANGLE = 0	# угол положения
-RADIUS = 70		# радиус
-ROTATION_COUNT = 17	# число витков
+R = 70		# радиус
+ROTCOUNT = 17	# число витков
 FINENESS = 0.25		# шаг
 
 # расчёт вертикального и горизонтального углов
 v_angle_unit = math.pi / RADIUS / 2
-h_angle_unit = math.pi / RADIUS * ROTATION_COUNT * FINENESS
+h_angle_unit = math.pi / RADIUS * ROTOUNT * FINENESS
 
 xr = LEANING_ANGLE / 180 * math.pi
 xrc = math.cos(xr)
@@ -34,18 +34,21 @@ flg = -1
 # генерация точек кривой
 i = -RADIUS
 while i <= RADIUS:
-  x = math.cos(i * v_angle_unit) * RADIUS
-  y = math.sin(i * v_angle_unit) * RADIUS
+  x = math.cos(i * v_angle_unit) * R
+  y = math.sin(i * v_angle_unit) * R
   
   v = [x*math.cos(total_rot), y, x*math.sin(total_rot)]
   
-  pnts.append([v[0], v[1] * xrc - v[2] * xrs, v[2] * xrc + v[1] * xrs])
+  pnt_y = v[1] * xrc - v[2] * xrs
+  pnt_z = v[2] * xrc + v[1] * xrs
+  
+  pnts.append([v[0], pnt_y, pnt_z])
   total_rot += h_angle_unit
   i += FINENESS
 
 # процедура формирования файла с координатами
 n = len(pnts)
-coords = open('./line-'+str(RADIUS)+'-'+str(ROTATION_COUNT)+'.sldcrv','w')
+coords = open('./line-'+str(R)+'-'+str(ROTCOUNT)+'.sldcrv','w')
 for i in range(n):
   xr = round(pnts[i][2],3)
   yr = round(pnts[i][1],3)
