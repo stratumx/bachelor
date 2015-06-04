@@ -27,7 +27,7 @@
 
 \bibitem{maddit}
 \selectlanguageifdefined{russian}
-\BibEmph{Довбыш~.~., Забеднов~.~., Зленко~.~.}
+\BibEmph{Довбыш~В.~М., Забеднов~П.~В., Зленко~М.~А.}
 \newblock Аддитивные технологии и изделия из металла.
 \newblock 2012.
 \newblock \BibUrl{www.ipmd.net}.
@@ -48,8 +48,8 @@ EIA Standard RS-274-D Interchangeable Variable Block Data Format for
 
 \bibitem{3dmetal}
 \selectlanguageifdefined{english}
-\BibEmph{Anzalone~G., Zhang~C., Pearce~J., Sanders~P.} A low-Cost Open-Source
-  Metal 3-D Printer~// \BibEmph{IEEE Access}.
+\BibEmph{Anzalone~Gerald, Zhang~Chenlong, Pearce~Joshua, Sanders~Paul}. A
+  low-Cost Open-Source Metal 3-D Printer~// \BibEmph{IEEE Access}.
 \newblock 2013. "--- December.
 \newblock no.~1.
 \newblock P.~803--810.
@@ -62,7 +62,7 @@ EIA Standard RS-274-D Interchangeable Variable Block Data Format for
 
 \bibitem{fdm_print}
 \selectlanguageifdefined{russian}
-\BibEmph{Одарченко~.~.} Моделирование методом послойного наплавления~//
+\BibEmph{Одарченко~Г.~А.} Моделирование методом послойного наплавления~//
   \BibEmph{3D Today}.
 \newblock 2013.
 \newblock {\cyr\CYRS.}~4.
@@ -119,7 +119,7 @@ SolidWorks 2010: Основные элементы SolidWorks, пер. с англ.
 
 \bibitem{5axis}
 \selectlanguageifdefined{english}
-\BibEmph{Apro~K.} Secrets of 5-Axis Machining.
+\BibEmph{Apro~Karlo}. Secrets of 5-Axis Machining.
 \newblock Industrial Press Inc., 2008.
 
 \bibitem{parallel}
@@ -130,7 +130,7 @@ SolidWorks 2010: Основные элементы SolidWorks, пер. с англ.
 
 \bibitem{pneum}
 \selectlanguageifdefined{russian}
-\BibEmph{Схиртладзе~.~., Иванов~.~., Кареев~.~.} Гидравлические и
+\BibEmph{Схиртладзе~А.~Г., Иванов~В.~И., Кареев~В.~Н.} Гидравлические и
   пневматические системы.
 \newblock Москва, ИЦ МГТУ <<Станкин>>: Янус-К, 2003.
 
@@ -143,9 +143,9 @@ SolidWorks 2010: Основные элементы SolidWorks, пер. с англ.
 
 \bibitem{stewart1}
 \selectlanguageifdefined{russian}
-\BibEmph{Андриевский~., Зегжда~., Казунин~.} Управление платформой Стьюарта с
-  шестью степенями свободы на базе пневмоприводов~// \BibEmph{XII Всероссийское
-  совещание по проблемам управления}.
+\BibEmph{Андриевский~Б.Р., Зегжда~С.А., Казунин~В.Д.} Управление платформой
+  Стьюарта с шестью степенями свободы на базе пневмоприводов~// \BibEmph{XII
+  Всероссийское совещание по проблемам управления}.
 \newblock 2014. "--- 16—19 июня.
 \newblock {\cyr\CYRS.}~4.
 
